@@ -1,0 +1,111 @@
+body {
+  background-color: tomato;
+}
+
+#circle {
+  background-color: white;
+
+  height: 45em;
+  width: 45em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+
+  border-radius: 50%;
+  box-shadow: 5px 5px 50px #222;
+}
+
+#topBun {
+  background-color: tan;
+
+  height: 5.5em;
+  width: 28em;
+
+  position: absolute;
+  top: -17em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#lettuce {
+  background-color: yellowgreen;
+
+  height: 1em;
+  width: 28em;
+
+  position: absolute;
+  top: -8em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#mustard {
+  background-color: gold;
+
+  height: 1em;
+  width: 28em;
+
+  position: absolute;
+  top: -4em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#ketchup {
+  background-color: red;
+
+  height: 1em;
+  width: 28em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#patty {
+  background-color: sienna;
+
+  height: 4em;
+  width: 28em;
+
+  position: absolute;
+  top: 7em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+#bottomBun {
+  background-color: tan;
+
+  height: 5.5em;
+  width: 28em;
+
+  position: absolute;
+  top: 18.5em;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+}

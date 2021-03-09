@@ -1,0 +1,48 @@
+h1 {
+  color: lightgreen;
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+}
+
+p {
+  color: red;
+  padding: 5px 5px 5px 5px;
+}
+
+.border {
+  border: solid thick black;
+  background-color: gray;
+  border-radius: 35px;
+  margin: auto;
+}
+
+.border2 {
+  border: solid black;
+  background-color: lightgrey;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.border3 {
+  border: solid black;
+  background-color: lightgrey;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.border4 {
+  border: solid black;
+  background-color: lightgrey;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 25px;
+}
+
+#align {
+  display: flex;
+  justify-content: space-between;
+}
