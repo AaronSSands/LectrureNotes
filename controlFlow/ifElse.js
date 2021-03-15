@@ -88,23 +88,22 @@ console.log(results)
 
 //Else if statements
 
-let age = 32;
+// let age = 32;
 
-if (age <= 17) {
+// if (age <= 17) {
 
-    console.log("Sorry, you're too young to do anything.");
+//     console.log("Sorry, you're too young to do anything.");
 
-} else if (age >= 25) {
+// } else if (age >= 25) {
 
-    console.log("You can rent a car!");
+//     console.log("You can rent a car!");
 
-} else if (age >= 21) {
+// } else if (age >= 21) {
 
-    console.log("You can drink!!");
+//     console.log("You can drink!!");
 
-} else  {
+// } else  {
 
-    console.log("You can vote");
+//     console.log("You can vote");
 
-}
-
+// }
