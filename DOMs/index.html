@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+        -DOM stands for Document Object Model, and it is what allows our JavaScript to intereact with the HTML and CSS of our page. The document object model specifies how browsers should create a model of an HTML page and how JavaScript can access and update the contents of a web page while it's in the browser window.
+​
+        -the DOM is an object-oriented representation of a web page, which can be modified with a scripting language such as JS. The DOM covers two primary areas:
+            1. Making a model HTML page
+                -when the browser loads a webpage, it creates a model of the page in memory
+                -the DOM specifies the way in which browsers should structure the model in what is called the DOM tree.
+                -the DOM is called an object model because the DOM tree itself is made up of objects
+​
+            2.Accessing and changing the HTML page
+                -the DOM also provides methods and properties to access and update each object in the model, which in turn updates what the user sees in the browser
+​
+            Accessing:
+                Common methods for accessing a single element:
+                    -getElementById()
+                    -querySelector()
+                Common methods for accessing multiples elements:
+                    -querySelectorAll()
+                    -getElementsByClassName()
+                    -getElementsByTagName()
+                
+            Manipulating:
+                Common properties/methods for working with html content:
+                    -innerHTML
+                    -textContent
+                    -createElement()
+                Common properties/methods for working with tag attributes:
+                    -className / id
+                    -setAttribute()
+                    -getAttribute()   
+      -->
+    <!-- 1 -->
+    <h1>Hello World</h1>
+​
+    <!-- 2 -->
+    <p id="testParagraph">Sample Text</p>
+​
+    <!-- 3 -->
+    <p class="sampleClass">This paragraph has the class of "sampleClass"</p>
+    <p class="sampleClass">This paragraph has the class of "sampleClass"</p>
+    <p class="sampleClass">This paragraph has the class of "sampleClass"</p>
+    <p class="sampleClass">This paragraph has the class of "sampleClass"</p>
+​
+    <!-- 3.5 -->
+    <span id="spanTest">Hello<span style="display: none">World</span></span>
+​
+    <!-- 4 -->
+    <button id="clickThisButton">Click Me!</button>
+​
+    <!-- 5 -->
+    <label for="nameInput">Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="Your Name Here" />
+​
+    <script src="script.js"></script>
+  </body>
+</html>

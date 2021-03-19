@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <!-- What is Bootstrap? Bootstrap is a HTML, CSS, and JS framework for developing responsive, mobile first projects. -->
+    <!-- How do I use Bootstrap? Head to https://getbootstrap.com/ and click the 'Get Started' button. -->
+    <!-- In the getting started guide, you should see CSS and JS, each with respective links under them. To access the Bootstrap framework, we need to use these links in our HTML file. Follow the directions on Bootstrap's website and copy/paste the necessary 'link' and 'script' tags. -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Files -->
+  <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header -->
+      <div class="card text-center">
+        <div class="card-header">
+          <ul class="nav nav-tabs card-header-tabs bg-dark">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="true" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" >Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Jumbotron</h5>
+          <p class="card-text">Welcome to my example portfolio</p>
+          <a href="#" class="btn btn-primary">Enter At Your Own Risk!</a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <!-- Although we are not using a Bootstrap component for our projects section, 
+        we are using Bootstrap's grid system to help with the layout of our webpage. 
+        In the 'Grid' section located in the left sidebar, there is documentation explaining how 
+        to implement Bootstrap's grid system within our webpage. -->
+    <!-- Bootstap's grid system has 12 columns that span the horizontal width of our viewport. 
+        By using the container, row, and col classes, we can use the grid system to evenely space 
+        out how many columns we want. In our code below, we have three div's that are each taking 
+        up 4 columns of the alloted 12 - which means they should be evenly spaced, taking up 4 
+        columns each. -->
+    <!-- Below we have a container, with a nested row, and 3 nested columns. The container is 
+        simply just a container for our content that we want to display in our grid. The row will 
+        align our columns in a horizontal row. And the columns are were we store our information.  -->
+     
+
+        <section>
+            <h1 id="projectsTitle">Projects</h1>
+            <div class="container">
+                <div class="row">
+                  <div class="col-3">
+                    Well, the way they make shows is, they make one show. That show's called a 
+                    pilot. Then they show that show to the people who make shows, and on the 
+                    strength of that one show they decide if they're going to make more shows. 
+                    Some pilots get picked and become television programs. Some don't, become 
+                    nothing. She starred in one of the ones that became nothing.
+                  </div>
+                  <div class="col-3">
+                    Well, the way they make shows is, they make one show. That show's called a 
+                    pilot. Then they show that show to the people who make shows, and on the 
+                    strength of that one show they decide if they're going to make more shows. 
+                    Some pilots get picked and become television programs. Some don't, become 
+                    nothing. She starred in one of the ones that became nothing.
+                  </div>
+                  <div class="col-3">
+                    Well, the way they make shows is, they make one show. That show's called a 
+                    pilot. Then they show that show to the people who make shows, and on the 
+                    strength of that one show they decide if they're going to make more shows. 
+                    Some pilots get picked and become television programs. Some don't, become 
+                    nothing. She starred in one of the ones that became nothing.
+                  </div>
+                  <div class="col-3">
+                    Well, the way they make shows is, they make one show. That show's called a 
+                    pilot. Then they show that show to the people who make shows, and on the 
+                    strength of that one show they decide if they're going to make more shows. 
+                    Some pilots get picked and become television programs. Some don't, become 
+                    nothing. She starred in one of the ones that became nothing.
+                </div>
+              </div>
+
+        </section>
+
+        <!-- About -->
+        <div class="bg-light p-5 rounded-lg m-3">
+            <h1 class="display-4" id="aboutTitle">Hello, world!</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, et
+              distinctio commodi nihil impedit sed officia inventore? Ea in ullam
+              nesciunt, deleniti, ipsam, numquam rerum distinctio eos atque excepturi
+              quasi? Beatae provident ut deleniti voluptatum nesciunt saepe, velit
+              incidunt debitis commodi voluptate aspernatur quia laboriosam
+              voluptatibus, quidem doloremque. Rem fugit sed nesciunt temporibus magni
+              animi nam natus ipsum, odio illum. Ex voluptatibus dolorem laudantium
+              praesentium doloremque, nesciunt rerum quia aperiam saepe error
+              aspernatur adipisci a reiciendis, magnam dignissimos autem voluptate,
+              laboriosam exercitationem harum enim facilis dolores nam quae ad? Fuga.
+              Molestiae similique, ducimus, consectetur unde illum nostrum hic error,
+              dolorum officia architecto esse odio natus! Eum vero deleniti voluptate
+              distinctio iste explicabo, odit ipsa fuga eaque? Quos hic rem minus.
+            </p>
+            <hr class="my-4" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+              provident est veritatis minima, alias sapiente totam deleniti eaque
+              eligendi suscipit debitis. Nostrum est dicta commodi rem quia dolor,
+              consequatur odit?
+            </p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+      
+          <!-- Our contact form is powered by formspree. Formspree is a free email service for 
+            HTML forms, that re-routes any form submissions to the provided email address 
+            (should be your personal email). This allows us to use form submission on our 
+            portfolios without using any JavaScript to post/route the form to us - formspree 
+            does that for us. -->
+
+            <section id="contact">
+                <div class="container">
+                  <br />
+                  <br />
+                  <h2 class="text-center text-uppercase">Contact Me</h2>
+                  <div class="row">
+                    <div class="col-12">
+                      <form
+                        action="https://formspree.io/f/xjvpnddd"
+                        method="POST"
+                      >
+                        <div class="control-group">
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Your Name"
+                              id="name"
+                              required
+                              data-validation-required-message="Please enter your name"
+                              name="name"
+                            />
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Your Email"
+                              id="email"
+                              required
+                              data-validation-required-message="Please enter your email"
+                              name="_replyto"
+                            />
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <textarea
+                              class="form-control"
+                              rows="7"
+                              placeholder="Your Message"
+                              id="message"
+                              required
+                              data-validation-required-message="Please leave a message"
+                              name="message"
+                            ></textarea>
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="text-center">
+                          <div id="success"></div>
+                          <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Send Message
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+     
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
